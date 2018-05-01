@@ -1,5 +1,15 @@
 # 39_Interfaces_Files
 
 ## Agenda
-- Append to file - `FileWriter(File file, boolean append) //Constructs a FileWriter object given a File object.`
+- Opsamling på Terning og Ludoterning
 - Interfaces
+- eksempel - `Serializable`
+```
+FileOutputStream
+ObjectOutputStrea
+writeObject()m
+
+FileInputStream
+ObjectInputStream
+(Arraylist<E>)readObject()
+```
