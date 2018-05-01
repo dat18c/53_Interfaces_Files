@@ -6,8 +6,8 @@
 - eksempel - `Serializable`
 ```
 FileOutputStream
-ObjectOutputStrea
-writeObject()m
+ObjectOutputStream
+writeObject()
 
 FileInputStream
 ObjectInputStream
