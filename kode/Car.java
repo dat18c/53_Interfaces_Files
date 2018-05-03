@@ -1,5 +1,5 @@
 import java.io.*;
-public class Car implements Serializable{
+public class Car implements Serializable, CarInfo{
 
    private String model;
    private int power;
@@ -27,5 +27,9 @@ public class Car implements Serializable{
    //pæn print
    public String toString(){
       return model + ": " + power + " hk";
-   } 
+   }
+   
+   public void printInfo(){
+      checkModel();
+   }
 }

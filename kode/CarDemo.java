@@ -9,6 +9,10 @@ public class CarDemo{
       carList.add(new Car("Skoda City", 55));
       carList.add(new Car("Panzer Mk IV", 750));
 
+      for (Car c : carList){
+         c.printInfo();
+      }
+
       FileOutputStream fo = new FileOutputStream("carList.ser");
       ObjectOutputStream output = new ObjectOutputStream(fo);
       output.writeObject(carList);
