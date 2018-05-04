@@ -1,12 +1,10 @@
-import java.io.*;
-
-public class Car implements Serializable, CarInfo{
+public class Bil implements BilInfo {
 
    private String model;
    private int power;
    
    //constructor
-   public Car(String mod, int pow){
+   public Bil(String mod, int pow){
       this.model = mod;
       this.power = pow;
    }
@@ -29,8 +27,11 @@ public class Car implements Serializable, CarInfo{
    public String toString(){
       return model + ": " + power + " hk";
    }
-   
+
+   //printInfo fra BilInfo interface
    public void printInfo(){
       checkModel();
+      System.out.println(power + " hk");
    }
+
 }
