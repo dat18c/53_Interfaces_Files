@@ -3,6 +3,7 @@ import java.util.*;
 public class LudoDice extends Dice{
    
    public void roll(){
+      //check cheat
       super.roll();
       String eyes = super.getEyes();
       if (eyes.equals("3")){
@@ -17,5 +18,7 @@ public class LudoDice extends Dice{
    public void tell(){
       super.tell();
    }
+   
+   // cheat fra interface CheatDice
 
 }
