@@ -1,4 +1,6 @@
-public class Bil implements BilInfo {
+import java.io.*;
+
+public class Bil implements BilInfo, Serializable{
 
    private String model;
    private int power;
