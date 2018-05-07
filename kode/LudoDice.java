@@ -22,6 +22,6 @@ public class LudoDice extends Dice{
       super.tell();
    }
    
-   // cheat fra interface CheatDice
+   
 
 }
