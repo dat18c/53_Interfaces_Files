@@ -1,15 +1,13 @@
-# 39_Interfaces_Files
+# 39_Interfaces
 
 ## Agenda
 - Opsamling på Terning og Ludoterning
 - Interfaces
-- eksempel - `Serializable`
-```
-FileOutputStream
-ObjectOutputStream
-writeObject()
+- eksempel - `comparable`
 
-FileInputStream
-ObjectInputStream
-(Arraylist<E>)readObject()
-```
+Snydeterning, der giver 6, når der slås 1 eller to - både den almindelige terning og ludoterningen
+
+## Øvelser
+Lav en metode, der bestemmer om terningen er en snydeterning `setCheat(boolean cheat)`
+
+Reges p. ex.
