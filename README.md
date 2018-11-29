@@ -3,6 +3,7 @@
 ## Agenda
 - Opsamling på Terning og Ludoterning
 - Interfaces
+- Kanban boards opdateres
 
 ## Øvelser
 Lav et interface med en abstrakt metode, der bestemmer om terningen er en snydeterning `setCheat(boolean cheat)`
