@@ -3,11 +3,12 @@
 ## Agenda
 - Opsamling på Terning og Ludoterning
 - Interfaces
-- eksempel - `comparable`
-
-Snydeterning, der giver 6, når der slås 1 eller to - både den almindelige terning og ludoterningen
 
 ## Øvelser
-Lav en metode, der bestemmer om terningen er en snydeterning `setCheat(boolean cheat)`
+Lav et interface med en abstrakt metode, der bestemmer om terningen er en snydeterning `setCheat(boolean cheat)`
 
-Reges p. ex.
+En snydeterning fungerer lidt forskelligt afhængigt af, om det er en almindelig ternining eller en LudoTerning:
+* En snyde-Terning slår 6 hver gang
+* mens en snyde-ludoterningen slår 6 hver gang
+
+Implementer metoden i klasserne og brug terningerne i en arrayliste. Lad nogle af dem være snydeterninger vha. minTerning.setCheat(true);
