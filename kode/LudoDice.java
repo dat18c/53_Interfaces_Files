@@ -1,7 +1,12 @@
-import java.util.*;
+//import java.util.*;
 
 public class LudoDice extends Dice
 {
+   public LudoDice()
+   {
+      //super();
+      roll();
+   }
    
    public void roll()
    {

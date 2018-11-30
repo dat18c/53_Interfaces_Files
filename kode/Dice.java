@@ -4,32 +4,36 @@ public class Dice
 {
 
    private String faceUp;
-
+   
+   //konstruktør
    public Dice()
    {
-      faceUp = "";
+      //this.faceUp = "";
+      roll();
    }
    
    public String getEyes()
    {
-      return faceUp;
+      return this.faceUp;
    }
    
    public void setEyes(String eyes)
    {
-      faceUp = eyes;
+      this.faceUp = eyes;
    }
    
    
    public void roll()
    {
+      //instantier random object
       Random r = new Random();
-      faceUp = Integer.toString(r.nextInt(6)+1);
+      //lav tilfældigt tal mellem 1 og 6 og konverter til streng
+      this.faceUp = Integer.toString(r.nextInt(6)+1);
    }
    
    public String toString()
    {
-      return faceUp;
+      return this.faceUp;
    }
 
 }
